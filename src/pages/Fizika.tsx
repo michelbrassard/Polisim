@@ -6,7 +6,6 @@ export default function Fizika() {
   return (
     <div style={{display: "flex", flexDirection: "column", flex: "1"}}>
         <h1>Fizika</h1>
-        <p>Welcome to physics.</p>
         <Link to={"/"}>Home</Link>
         <Canvas style={{backgroundColor: "lightgray", flex: "1"}}>
             <ambientLight intensity={Math.PI / 2} />
