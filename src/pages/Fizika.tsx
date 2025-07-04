@@ -1,6 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Link } from "react-router-dom";
 import Box from "../components/Box";
+import { OrbitControls } from "@react-three/drei";
 
 export default function Fizika() {
   return (
@@ -13,6 +14,9 @@ export default function Fizika() {
             <pointLight position={[-10, -10, -10]} decay={0} intensity={Math.PI} />
             <Box position={[-1.2, 0, 0]} />
             <Box position={[1.2, 0, 0]} />
+            <gridHelper args={[10, 10]} />
+            <axesHelper args={[5]} />
+            <OrbitControls />
         </Canvas>
     </div>
   )
