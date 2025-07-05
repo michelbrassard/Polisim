@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Fizika from './pages/Fizika/page'
 import MjerneJedinice from './pages/Fizika/gradivo/SIMjerneJedinice'
+import Kinematika from './pages/Fizika/gradivo/Kinematika'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/fizika" element={<Fizika />} />
         <Route path='/fizika/mjerne-jedinice' element={<MjerneJedinice />} />
+        <Route path='/fizika/kinematika' element={<Kinematika />} />
       </Routes>
     </div>
   )
