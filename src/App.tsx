@@ -5,7 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Fizika from './pages/Fizika/page'
-import MjerneJedinice from './pages/Fizika/poglavlja/SIMjerneJedinice'
+import MjerneJedinice from './pages/Fizika/gradivo/SIMjerneJedinice'
 
 function App() {
   return (

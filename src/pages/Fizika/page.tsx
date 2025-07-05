@@ -2,10 +2,11 @@ import { Canvas } from "@react-three/fiber";
 import { Link } from "react-router-dom";
 import Box from "../../components/Box";
 import { OrbitControls } from "@react-three/drei";
+import "../../App.css"
 
 export default function Fizika() {
   return (
-    <div style={{display: "flex", flexDirection: "column", flex: "1"}}>
+    <div className="container">
         <h1>Fizika</h1>
         <Link to={"/"}>Home</Link>
         <Link to={"mjerne-jedinice"}>Mjerne Jedinice</Link>
