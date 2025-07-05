@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { Link } from "react-router-dom";
-import Box from "../components/Box";
+import Box from "../../components/Box";
 import { OrbitControls } from "@react-three/drei";
 
 export default function Fizika() {
@@ -8,6 +8,7 @@ export default function Fizika() {
     <div style={{display: "flex", flexDirection: "column", flex: "1"}}>
         <h1>Fizika</h1>
         <Link to={"/"}>Home</Link>
+        <Link to={"mjerne-jedinice"}>Mjerne Jedinice</Link>
         <Canvas style={{backgroundColor: "lightgray", flex: "1"}}>
             <ambientLight intensity={Math.PI / 2} />
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} />

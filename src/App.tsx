@@ -4,7 +4,8 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Fizika from './pages/Fizika'
+import Fizika from './pages/Fizika/page'
+import MjerneJedinice from './pages/Fizika/poglavlja/SIMjerneJedinice'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fizika" element={<Fizika />} />
+        <Route path='/fizika/mjerne-jedinice' element={<MjerneJedinice />} />
       </Routes>
     </div>
   )
