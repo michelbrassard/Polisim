@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import { useEffect, useRef, useState } from 'react'
-import { useFrame, type ThreeElements } from '@react-three/fiber'
+import { type ThreeElements } from '@react-three/fiber'
 import { DragControls } from '@react-three/drei'
 
 /**
