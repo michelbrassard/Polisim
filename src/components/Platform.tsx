@@ -24,8 +24,11 @@ export default function Platform(props: ThreeElements['mesh']) {
             // onPointerOut={() => setHover(false)}
             receiveShadow
         >
+            
             <boxGeometry args={[15, 0.1, 15]} />
             <meshStandardMaterial color={'white'} />
+            
         </mesh>
     )
 }
+
